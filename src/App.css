@@ -1,0 +1,301 @@
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/* Preloader styles */
+.preloader {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #111;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 9999;
+}
+
+.loader p {
+  display: inline-block;
+  font-size: 2rem;
+  font-weight: bold;
+  color: #fff;
+  animation: fadeIn 0.5s ease-in-out infinite;
+}
+
+.loader p:nth-child(odd) {
+  animation-delay: 0.2s;
+}
+
+@keyframes fadeIn {
+  0%, 100% {
+    opacity: 0.2;
+  }
+  50% {
+    opacity: 1;
+  }
+}
+
+/* Theme Switcher Styles */
+#switcher.active {
+  left: 0px;
+}
+
+#switcher p {
+  color: #fff;
+  bottom: -6px;
+  position: absolute;
+  left: 21px;
+  font-size: 13px;
+}
+
+#switcher .theme-click {
+  color: #0C2035;
+  cursor: pointer;
+  display: block;
+  font-size: 20px;
+  height: 40px;
+  line-height: 40px;
+  position: absolute;
+  right: -40px;
+  text-align: center;
+  top: 0;
+  width: 40px;
+  z-index: 2;
+  box-shadow: 0 8px 20px 0 rgba(255, 255, 255, 0.2);
+  background: #ffffff;
+}
+
+#switcher .theme-color:after {
+  content: "";
+  height: 74px;
+  position: absolute;
+  right: 0;
+  transform: rotate(45deg);
+  width: 30px;
+  background-color: #FFFF00;
+}
+
+#switcher .theme-color {
+  width: 30px;
+  height: 30px;
+  margin: 10px;
+  position: absolute;
+  left: 0px;
+  cursor: pointer;
+  overflow: hidden;
+  background: #0C2035;
+}
+
+#switcher .theme-active {
+  background: #FFFF00;
+}
+
+#switcher .theme-active:after {
+  background-color: #FFFF00;
+}
+
+#switcher .theme-color-two {
+  background: #FFBB00;
+  left: 40px;
+}
+
+#switcher .theme-color-two:after {
+  background: #0C2035;
+}
+
+#switcher .theme-color-three {
+  background: #0C2035;
+  left: 80px;
+}
+
+#switcher .theme-color-three:after {
+  background: #00AAFF;
+}
+
+#switcher .theme-color-four {
+  background: #0C2035;
+  left: 120px;
+}
+
+#switcher .theme-color-four:after {
+  background: #00FFAE;
+}
+
+/* Themes for Body */
+/* Theme One */
+/* Theme One */
+body[data-theme='one'] {
+  background: #0C2035;
+  color: #FFFF00;
+}
+
+body[data-theme='one'] h1,
+body[data-theme='one'] h2,
+body[data-theme='one'] h4,
+body[data-theme='one'] h5,
+body[data-theme='one'] h6 {
+  color: #FFFF00;
+}
+
+body[data-theme='one'] button {
+  border: 2px solid #FFFF00;
+  color: #FFFF00;
+}
+
+/* Theme Two */
+body[data-theme='two'] {
+  background: #FFBB00;
+  color: #0C2035;
+}
+
+body[data-theme='two'] h1,
+body[data-theme='two'] h2,
+body[data-theme='two'] h4,
+body[data-theme='two'] h5,
+body[data-theme='two'] h6 {
+  color: #FFBB00;
+}
+
+body[data-theme='two'] button {
+  border: 2px solid #FFBB00;
+  color: #FFBB00;
+}
+
+/* Theme Three */
+body[data-theme='three'] {
+  background: #0C2035;
+  color: #00AAFF;
+}
+
+body[data-theme='three'] h1,
+body[data-theme='three'] h2,
+body[data-theme='three'] h4,
+body[data-theme='three'] h5,
+body[data-theme='three'] h6 {
+  color: #00AAFF;
+}
+
+body[data-theme='three'] button {
+  border: 2px solid #00AAFF;
+  color: #00AAFF;
+}
+
+/* Theme Four */
+body[data-theme='four'] {
+  background: #0C2035;
+  color: #00FFAE;
+}
+
+body[data-theme='four'] h1,
+body[data-theme='four'] h2,
+body[data-theme='four'] h4,
+body[data-theme='four'] h5,
+body[data-theme='four'] h6 {
+  color: #00FFAE;
+}
+
+body[data-theme='four'] button {
+  border: 2px solid #00FFAE !important;
+  color: #00FFAE;
+}
+
+#logo {
+  width: 150px; /* Adjust size as needed */
+  height: auto;
+  transition: opacity 0.3s ease-in-out; /* Smooth transition */
+}
+
+body[data-theme='two'] #logo {
+  filter: hue-rotate(0deg); /* Optional adjustment */
+}
+
+body[data-theme='one'] #logo {
+  filter: hue-rotate(45deg); /* Optional adjustment */
+}
+
+body[data-theme='four'] #logo {
+  filter: hue-rotate(90deg); /* Optional adjustment */
+}
+
+body[data-theme='three'] #logo {
+  filter: hue-rotate(135deg); /* Optional adjustment */
+}
+
+/* Fade In Up */
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.fadeInUp {
+  animation: fadeInUp 1s ease-out forwards;
+}
+
+/* Fade In Down */
+@keyframes fadeInDown {
+  from {
+    opacity: 0;
+    transform: translateY(-20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.fadeInDown {
+  animation: fadeInDown 1s ease-out forwards;
+}
+
+/* Hidden Class for Initial State */
+.hidden {
+  opacity: 0;
+}
+
+
+
+

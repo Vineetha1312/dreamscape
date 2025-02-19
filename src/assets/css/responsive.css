@@ -1,0 +1,530 @@
+@media (min-width: 1920px) {
+	.footer-sec-container {
+		max-width: 60%;
+	}
+	.banner-cnt h1 {
+		font-size: 170px;
+		padding-top: 96px;
+	}
+}
+
+@media (min-width: 1024px) and (max-width: 1499.99px) {
+	.cta-reservations h3 {
+		font-size: 45px;
+	}
+	.cta-reservations a {
+		font-size: 26px;
+	}
+	.topbar-container,
+	.about-container,
+	.time-sec-container,
+	.footer-sec-container{
+		max-width: 90%;
+	}
+	.team-sec-container {
+		max-width: 895px;
+	}
+	.form-sec-container {
+		max-width: 895px;
+	}
+	.news-sec-container {
+		padding-bottom: 150px;
+		max-width: 900px;
+	}
+	.side-menu {
+		width: 25%;
+	}
+	.side-menu .inner-wrapper {
+		padding: 100px 30px 40px;
+		display: block;
+	}
+	.side-nav .navbar-nav li:first-child .nav-link{
+		padding-top: 0;
+	}
+	.side-nav .navbar-nav .nav-link {
+		padding: 30px 0;
+	}
+	.banner-cnt {
+		padding-top: 220px;
+	}
+	.banner-cnt h1 {
+		font-size: 80px;
+	}
+	p.caption-banner {
+		font-size: 30px;
+	}
+	
+	.square-bor {
+		width: 175px;
+		height: 175px;
+		top: 1%;
+		left: 20%;
+	}
+	.square {
+		width: 210px;
+		height: 210px;
+		margin: 44px;
+	}
+	.square img {
+		width: 312px;
+		height: 312px;
+		margin: -53px;
+	}
+	.team-block-img,
+	.team-block-img img {
+		width: 170px;
+		height: 170px;
+	}
+	.news-img {
+		width: 200px;
+		height: auto;
+	}
+	.news-sec-right {
+		right: 0;
+	}
+	.news-txt-sec {
+		padding: 50px 18px;
+		width: 250px;
+	}
+	.titles-main h3 {
+		font-size: 90px;
+	}
+	.gal-img1{
+		width: 100%;
+	}
+	.gal-img2,
+	.gal-img3{
+		width: 230px;
+	}
+	.gal-img4,
+	.gal-img5,
+	.gal-img6{
+		width: 146px;
+	  }
+	  .footer-inn-one {
+		width: 32%;
+	}
+	.footer-inn-four {
+		width: 15%;
+	}
+}
+@media (min-width: 992px) and (max-width: 1023.99px) {
+	.cta-reservations h3 {
+		font-size: 45px;
+	}
+	.cta-reservations a {
+		font-size: 26px;
+	}
+	.topbar-container,
+	.about-container,
+	.time-sec-container,
+	.team-sec-container,
+	.form-sec-container,
+	.news-sec-container,
+	.footer-sec-container{
+		max-width: 90%;
+	}
+	.news-sec-container {
+		padding-bottom: 150px;
+	}
+	.side-menu {
+		width: 35%;
+	}
+	.side-menu .inner-wrapper {
+		padding: 100px 30px 40px;
+		display: block;
+	}
+	.side-nav .navbar-nav li:first-child .nav-link{
+		padding-top: 0;
+	}
+	.side-nav .navbar-nav .nav-link {
+		padding: 30px 0;
+	}
+	.banner-cnt {
+		padding-top: 220px;
+	}
+	.banner-cnt h1 {
+		font-size: 80px;
+	}
+	p.caption-banner {
+		font-size: 30px;
+	}
+	
+	.square-bor {
+		width: 175px;
+		height: 175px;
+		top: 1%;
+		left: 20%;
+	}
+	.square {
+		width: 210px;
+		height: 210px;
+		margin: 44px;
+	}
+	.square img {
+		width: 312px;
+		height: 312px;
+		margin: -53px;
+	}
+	.team-block-img,
+	.team-block-img img {
+		width: 170px;
+		height: 170px;
+	}
+	.news-img {
+		width: 200px;
+		height: auto;
+	}
+	.news-sec-right {
+		right: 0;
+	}
+	.news-txt-sec {
+		padding: 50px 18px;
+		width: 250px;
+	}
+	.titles-main h3 {
+		font-size: 90px;
+	}
+	.gal-img1{
+		width: 100%;
+	}
+	.gal-img2,
+	.gal-img3{
+		width: 230px;
+	}
+	.gal-img4,
+	.gal-img5,
+	.gal-img6{
+		width: 140px;
+	  }
+	  .footer-inn-one {
+		width: 32%;
+	}
+	.footer-inn-four {
+		width: 15%;
+	}
+}
+@media (min-width: 768px) and (max-width: 991.99px) {
+	
+.topbar-container,
+.about-container,
+.time-sec-container,
+.team-sec-container,
+.form-sec-container,
+.footer-sec-container{
+	max-width: 90%;
+}
+.news-sec-container {
+	max-width: 610px;
+	padding-bottom: 80px;
+}
+.side-menu {
+	width: 45%;
+}
+.side-menu .inner-wrapper {
+	padding: 100px 30px 40px;
+    display: block;
+}
+.side-nav .navbar-nav li:first-child .nav-link{
+	padding-top: 0;
+}
+.side-nav .navbar-nav .nav-link {
+	padding: 30px 0;
+}
+.banner-cnt {
+	padding-top: 220px;
+}
+.banner-cnt h1 {
+	font-size: 80px;
+}
+p.caption-banner {
+	font-size: 30px;
+}
+.diamond-container {
+	margin: 100px 0 0;
+}
+.square-bor {
+	width: 125px;
+	height: 126px;
+	top: 1%;
+	left: 19%;
+}
+.square {
+	width: 145px;
+	height: 145px;
+	margin: 30px;
+}
+.square img {
+	width: 208px;
+	height: 208px;
+	margin: -27px;
+}
+.titles-main h3 {
+	font-size: 68px;
+}
+.titles-main h2 {
+	font-size: 40px;
+}
+#countdown #tiles > span{
+	width: 120px;
+	margin: 0 10px;
+	font-size: 60px;
+}
+#countdown .labels li{
+	width: 120px;
+	margin: 0 10px;
+	font-size: 35px;
+}
+.photos1,
+.photos2 {
+	width: 100%;
+}
+.gal-img1,
+.gal-img2,
+.gal-img3,
+.gal-img4,
+.gal-img5,
+.gal-img6{
+	width: 250px;
+  }
+.cta-reservations h3 {
+	font-size: 38px;
+}
+.cta-reservations a {
+	font-size: 22px;
+	padding: 18px 52px 16px;
+}
+.contact-sec-bg {
+	padding-top: 200px;
+}
+.contact-sec-bg h4 {
+	font-size: 50px;
+}
+footer {
+	padding: 115px 0 80px;
+}
+.footer-inn {
+	display: inline-block;
+}
+.footer-inn-one,
+.footer-inn-two,
+.footer-inn-three,
+.footer-inn-four {
+	width: 50%;
+	float: left;
+}
+}
+@media (min-width: 360px) and (max-width: 767.99px) {
+
+	.top-bar.sticky_menu {
+		left: 0;
+		right: 0;
+		top: 0;
+		position: fixed;
+		z-index: 9999;
+		background:rgba(0, 18, 36, 1);
+		padding: 15px 0 15px;
+	}
+.side-menu {
+	width: 100%;
+}
+#btn_sideNavClose.menu-btn {
+	top: 38px;
+	right: 8%;
+}
+.side-menu .inner-wrapper {
+	padding: 100px 30px 40px;
+    display: block;
+}
+.side-nav .navbar-nav li:first-child .nav-link{
+	padding-top: 0;
+}
+.side-nav .navbar-nav .nav-link {
+	padding: 25px 0;
+}
+.banner-cnt h1 {
+	font-size: 48px;
+	padding-top: 40px;
+}
+p.caption-banner {
+	font-size: 20px;
+	line-height: 30px;
+	margin: 30px 0px 0;
+}
+.banner-cnt {
+	padding-top: 100px;
+}
+.book-now-sec {
+	margin: 50px auto 60px;
+}
+header {
+	padding-bottom: 60px;
+	z-index: 9;
+}
+.titles-main h3 {
+	display: none;
+}
+section {
+	padding: 80px 0;
+}
+.titles-main h4 {
+	margin-bottom: 40px;
+	font-size: 15px;
+	line-height: 30px;
+	margin-top: 0;
+}
+.titles-main h2 {
+	font-size: 40px;
+	line-height: 49px;
+}
+header .social-icons {
+	display: none;
+}
+.diamond-inn {
+	margin-bottom: 120px;
+	display: inline-block;
+}
+.diamond-inn:last-child{
+    margin-bottom: 50px;
+}
+.diamond-container {
+	display: block;
+    margin: 100px 0 0;
+}
+.square {
+	width: 220px;
+	height: 220px;
+	margin: 0px 25px;
+}
+.square-bor {
+	width: 181px;
+	height: 201px;
+	top: -15%;
+}
+.topbar-container,
+.about-container,
+.time-sec-container,
+.team-sec-container,
+.form-sec-container,
+.news-sec-container,
+.footer-sec-container {
+	max-width: 90%;
+}
+.news-sec-container {
+	padding-bottom: 0;
+}
+.cta-reservations h3 {
+	font-size: 32px;
+}
+.cta-reservations a {
+	font-size: 20px;
+	line-height: 15px;
+	padding: 23px 32px 22px;
+}
+.contact-sec-bg h4 {
+	font-size: 40px;
+	line-height: 50px;
+}
+
+#countdown #tiles > span{
+	width: auto;
+	margin: 0 10px;
+	font-size: 40px;
+}
+#countdown .labels li{
+	width: auto;
+	margin: 0 10px;
+	font-size: 22px;
+}
+.services-main {
+	margin: 0px 0 0;
+}
+.service-block {
+	margin: 55px 0 0 0;
+}
+.team-main {
+	margin: 15px 0 0;
+}
+.team-block {
+	margin-top: 50px;
+}
+.gallery-main {
+	margin-top: 60px;
+}
+.news-block {
+	margin-bottom: 200px;
+}
+.news-main {
+	margin: 55px 0 0;
+}
+.news-img {
+	width: 50%;
+	height: auto;
+}
+.news-sec-right{
+	width: 50%;
+	margin: 20px 0 0;
+	right: 5%;
+}
+.news-txt-sec{
+	width: 100%;
+	padding: 55px 10px;
+}
+.news-txt-sec h6 {
+	font-size: 12px;
+	line-height: 10px;
+	margin: 0 0 11px;
+	padding: 0 0 12px;
+}
+.news-txt-sec h5 {
+	font-size: 16px;
+	line-height: 20px;
+}
+.news-txt-sec p {
+	font-size: 12px;
+	line-height: 16px;
+}
+.news-txt-sec a {
+	font-size: 12px;
+	line-height: 18px;
+	padding: 5px 20px;
+}
+
+.photos1,
+.photos2 {
+	width: 90%;
+}
+.gallery-sec-bg {
+	padding-bottom: 135px;
+}
+.gal-img1,
+.gal-img2,
+.gal-img3,
+.gal-img4,
+.gal-img5,
+.gal-img6{
+	width: 250px;
+}
+.contact-sec-bg {
+	padding-top: 225px;
+}
+footer {
+	padding: 68px 0 60px;
+}
+.footer-inn-one,
+.footer-inn-two,
+.footer-inn-three,
+.footer-inn-four {
+	width: 100%;
+	margin-bottom: 30px;
+}
+.footer-inn-four{
+  margin-bottom: 0;
+}
+.footer-inn {
+  display: block;
+}
+.footer-searchbar .input-container {
+	width: 100%;
+}
+}

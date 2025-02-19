@@ -1,0 +1,64 @@
+.logo-three {
+    content: url('../images/logo-three.png'); 
+	width: 224px;
+}
+.sidenav-header .logo-three {
+	width: 185px;
+}
+.arrow-three {
+    content: url('../images/arrow-three.png');
+	width: 32px;
+}
+.side-nav .navbar-nav .nav-link.active, 
+.side-nav .navbar-nav .nav-link:hover {
+	color: #00AAFF;
+}
+.banner-cnt h1 {
+	color: #00AAFF;
+}
+.book-now-sec p {
+	border: dashed 2px #00AAFF;
+}
+.titles-main h2 {
+	color: #00AAFF;
+}
+.about-readmore-btn {
+	border: 1px solid #00AAFF;
+}
+.about-readmore-btn:hover {
+	background-color: #00AAFF;
+}
+.service-block .icon-container {
+	border: 2px dotted #00AAFF;
+}
+.team-block h6 {
+	color: #00AAFF;
+}
+.news-txt-sec h5 {
+	color: #00AAFF;
+}
+.news-txt-sec a {
+	color: #00AAFF;
+	border: 1px solid #00AAFF;
+}
+.news-txt-sec a:hover {
+	border: 1px solid #00AAFF;
+	background-color: #00AAFF;
+}
+.cta-reservations a {
+	background: #00AAFF;
+	box-shadow: inset 0 0 #716f07;
+}
+.contact-sec-bg h4 {
+	color: #00AAFF;
+}
+form.contact-form .submit-btn {
+	background: #00AAFF;
+}
+footer h4 span {
+	color: #00AAFF;
+}
+.footer-inn h6 {
+	color: #00AAFF;
+}
+

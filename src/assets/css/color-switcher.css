@@ -1,0 +1,190 @@
+/* color changer
+#switcher {
+	position: fixed;
+	bottom: 40%;
+	left: -170px;
+	width: 170px;
+	z-index: 9999;
+	font-size: 15px;
+	padding-bottom: 20px;
+	-webkit-transition: all 0.6s ease;
+	transition: all 0.6s ease;
+	height: 50px;
+	background: #fff;
+	box-shadow: 0px 3px 10px 0 rgba(0, 0, 0, 0.2);
+}
+#switcher.active {
+  left: 0px;
+}
+
+  
+#switcher p {
+	color: #fff;
+	bottom: -6px;
+	position: absolute;
+	left: 21px;
+	font-size: 13px;
+}
+#switcher .theme-click {
+	color: #0C2035;
+	cursor: pointer;
+	display: block;
+	font-size: 20px;
+	height: 40px;
+	line-height: 40px;
+	position: absolute;
+	right: -40px;
+	text-align: center;
+	top: 0;
+	width: 40px;
+	z-index: 2;
+	box-shadow: 0 8px 20px 0 rgba(255, 255, 255, 0.2);
+	background:#ffffff;
+
+}
+#switcher .theme-color:after {
+    content: "";
+    height: 74px;
+    position: absolute;
+    right: 0;
+    transform: rotate(45deg);
+    width: 30px;
+    background-color: #FFFF00;
+	}
+#switcher .theme-color {
+	width: 30px;
+	height: 30px;
+	margin: 10px;
+	position: absolute;
+	left: 0px;
+	cursor: pointer;
+	overflow:hidden;
+	background: #0C2035;
+}
+#switcher .theme-active {
+	background: #0C2035;
+}
+#switcher .theme-active:after {
+  background-color: #FFFF00;
+}
+#switcher .-color-two {
+	background: #FFBB00;
+	left: 40px;
+}
+#switcher .theme-color-two:after {
+	background: #0C2035;	
+	}
+#switcher .theme-color-three {
+	background: #0C2035;
+	left: 80px;
+}
+#switcher .theme-color-three:after {
+	background: #00AAFF;	
+	}
+#switcher .theme-color-four {
+	background: #0C2035;
+	left: 120px;
+}
+#switcher .theme-color-four:after {
+	background: #00FFAE;	
+	} */
+
+	#switcher {
+		position: fixed;
+		bottom: 40%;
+		left: -170px;
+		width: 170px;
+		z-index: 9999;
+		font-size: 15px;
+		padding-bottom: 20px;
+		transition: all 0.6s ease;
+		height: 50px;
+		background: #fff;
+		box-shadow: 0px 3px 10px 0 rgba(0, 0, 0, 0.2);
+	  }
+	  
+	  #switcher.active {
+		left: 0px;
+	  }
+	  
+	  #switcher p {
+		color: #fff;
+		bottom: -6px;
+		position: absolute;
+		left: 21px;
+		font-size: 13px;
+	  }
+	  
+	  #switcher .theme-click {
+		color: #0C2035;
+		cursor: pointer;
+		display: block;
+		font-size: 20px;
+		height: 40px;
+		line-height: 40px;
+		position: absolute;
+		right: -40px;
+		text-align: center;
+		top: 0;
+		width: 40px;
+		z-index: 2;
+		box-shadow: 0 8px 20px 0 rgba(255, 255, 255, 0.2);
+		background: #ffffff;
+	  }
+	  
+	  #switcher .theme-color:after {
+		content: "";
+		height: 74px;
+		position: absolute;
+		right: 0;
+		transform: rotate(45deg);
+		width: 30px;
+		background-color: #FFFF00;
+	  }
+	  
+	  #switcher .theme-color {
+		width: 30px;
+		height: 30px;
+		margin: 10px;
+		position: absolute;
+		left: 0px;
+		cursor: pointer;
+		overflow: hidden;
+		background: #0C2035;
+	  }
+	  
+	  #switcher .theme-active {
+		background: #0C2035;
+	  }
+	  
+	  #switcher .theme-active:after {
+		background-color: #FFFF00;
+	  }
+	  
+	  #switcher .theme-color-two {
+		background: #FFBB00;
+		left: 40px;
+	  }
+	  
+	  #switcher .theme-color-two:after {
+		background: #0C2035;
+	  }
+	  
+	  #switcher .theme-color-three {
+		background: #0C2035;
+		left: 80px;
+	  }
+	  
+	  #switcher .theme-color-three:after {
+		background: #00AAFF;
+	  }
+	  
+	  #switcher .theme-color-four {
+		background: #0C2035;
+		left: 120px;
+	  }
+	  
+	  #switcher .theme-color-four:after {
+		background: #00FFAE;
+	  }
+		  

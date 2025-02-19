@@ -1,0 +1,64 @@
+.logo-two {
+    content: url('../images/logo-two.png');
+	width: 224px;
+}
+.sidenav-header .logo-two {
+	width: 185px;
+}
+.arrow-two {
+    content: url('../images/arrow-two.png'); 
+	width: 32px;
+}
+.side-nav .navbar-nav .nav-link.active, 
+.side-nav .navbar-nav .nav-link:hover {
+	color: #FFBB00;
+}
+.banner-cnt h1 {
+	color: #FFBB00;
+}
+.book-now-sec p {
+	border: dashed 2px #FFBB00;
+}
+.titles-main h2 {
+	color: #FFBB00;
+}
+.about-readmore-btn {
+	border: 1px solid #FFBB00;
+}
+.about-readmore-btn:hover {
+	background-color: #FFBB00;
+}
+.service-block .icon-container {
+	border: 2px dotted #FFBB00;
+}
+.team-block h6 {
+	color: #FFBB00;
+}
+.news-txt-sec h5 {
+	color: #FFBB00;
+}
+.news-txt-sec a {
+	color: #FFBB00;
+	border: 1px solid #FFBB00;
+}
+.news-txt-sec a:hover {
+	border: 1px solid #FFBB00;
+	background-color: #FFBB00;
+}
+.cta-reservations a {
+	background: #FFBB00;
+	box-shadow: inset 0 0 #716f07;
+}
+.contact-sec-bg h4 {
+	color: #FFBB00;
+}
+form.contact-form .submit-btn {
+	background: #FFBB00;
+}
+footer h4 span {
+	color: #FFBB00;
+}
+.footer-inn h6 {
+	color: #FFBB00;
+}
+
